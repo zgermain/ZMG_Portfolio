@@ -1,0 +1,51 @@
+body{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 200;
+}
+
+h1{
+  font-family: 'Telex', sans-serif;
+  font-size: 80px;
+  color: rgb(70, 70, 235);
+}
+
+h3{
+  color: rgb(70, 70, 235);
+  font-weight: 200;
+}
+
+nav{
+  background-color:  rgba(255, 255, 255, 0.281);
+  color: black;
+}
+
+.btn{
+  background-color:rgb(70, 70, 235);
+}
+
+.btn:hover{
+  background-color:rgb(144, 144, 235);
+}
+
+.btn:visited{
+  background-color:rgb(56, 56, 138);
+}
+
+#email{
+  color: black;
+}
+
+#index-banner{
+  height: 400px;
+}
+
+#parallax-2{
+  height: 300px;
+}
+
+
+@media(max-width:635px){
+  h1{
+    font-size: 60px;
+  }
+}
